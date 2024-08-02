@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lan House</title>
+        <link rel = "stylesheet" href = "./css/styles.css">
+        <script src = "./js/scripts.js"></script>
+    </head>
+    <body>
+        <h1>Lan House TechSim</h1>
+        <h4>A melhor Lan House da cidade!</h4>
+
+        <label for = "preco15">Valor por cada 15 minutos de uso (R$):</label>
+        <input type = "text" id = "preco15">
+        <br><br>
+        <label style = "padding-right: 76px;" for = "tempouso">Tempo de uso (em minutos):</label>
+        <input type = "number" id = "tempouso">
+        <br><br>
+        <button type = "button" onClick = "calcularPreco()">Calcular valor a pagar</button>
+        <br><br>
+        <b id = 'valorPagar'></b>
+    </body>
+</html>
